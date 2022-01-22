@@ -1,0 +1,83 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1400px;
+}
+h1,h2,h3,h4,h5,h6{
+
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 700px;
+	height: 400px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 250px;
+	height: 250px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 18%;
+	left:30%;
+	z-index: 1;
+
+}
+.yellow{
+	width: 260px;
+	height: 260px;
+	background: yellow;
+	position: fixed;
+	top: 0%;
+	right: 0%;
+
+}
+.fb{
+	width: 180px;
+	position: fixed;
+	top: 30%;
+	right: -137px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -2px;
+}
+.twitter{
+	width: 180px;
+	position: fixed;
+	top:45%;
+	right: -137px;
+	transition: 1s;
+}
+.twitter:hover{
+	right: -2px;
+}
+.youtube{
+	width: 190px;
+	position: fixed;
+	top:60%;
+	right: -137px;
+	transition: 1s;
+}
+.youtube:hover{
+	right: -8px;
+}
+.instagram{
+	width: 190px;
+	position: fixed;
+	top:75%;
+	right: -137px;
+	transition: 1s;
+}
+.instagram:hover{
+	 right: -8px;	
+}
